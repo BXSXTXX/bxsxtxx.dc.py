@@ -27,7 +27,7 @@ except FileNotFoundError:
 
 openai.api_key = input("Bitte geben Sie Ihren OpenAI-API-Schlüssel ein: ")
 
-model_engine = "text-davinci-002"
+model_engine = "text-davinci-003"
 
 @client.event
 async def on_ready():
